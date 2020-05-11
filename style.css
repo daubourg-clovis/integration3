@@ -49,4 +49,9 @@ body{
     color: #554D89;
     font-weight: bold;
     font-size: 1.063rem;
+    border-top: 2px solid;
+    /* border-image: linear-gradient(#6852ED,#BA43FC) 30; */
+    padding-top: 1.813rem;
 }
+
+/* Faire border top pour le hover  */
