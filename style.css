@@ -139,15 +139,16 @@ p{
 
 #prices{
     width: 1140px;
-    height: 616px;
+    height: 506px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 22.063rem;
+    margin-bottom: 7.5rem;
 }
 
 #prices .div-2-1 {
-    width: 360px;
-    height: 616px;
+    width: 320px;
+    height: 506px;
     box-shadow: -2px -4px 27px 0px rgba(0,0,0,0.08);
     padding: 3.875rem 4.438rem 3.063rem 3.688rem;
 }
@@ -156,6 +157,10 @@ p{
     font-family: 'Poppins-Bold', sans-serif;
     font-size: 1.25rem;
     color: #554D89;
+}
+
+#margindiv-2-1{
+    margin: 0 1.875rem;
 }
 
 #best-1{
