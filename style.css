@@ -15,6 +15,20 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('Poppins-Regular.eot?#iefix') format('embedded-opentype'),  url('Poppins-Regular.woff') format('woff'), url('Poppins-Regular.ttf')  format('truetype'), url('Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('Poppins-Medium.eot?#iefix') format('embedded-opentype'),  url('Poppins-Medium.woff') format('woff'), url('Poppins-Medium.ttf')  format('truetype'), url('Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 
 /* General  */
 
@@ -50,8 +64,63 @@ body{
     font-weight: bold;
     font-size: 1.063rem;
     border-top: 2px solid;
-    /* border-image: linear-gradient(#6852ED,#BA43FC) 30; */
+    /* border-image: linear-gradient(#6852ED,#BA43FC); */
     padding-top: 1.813rem;
 }
 
-/* Faire border top pour le hover  */
+.div-1-2{
+    width: 27.25rem;
+    height: 18.313rem;
+    margin-top: 17.813rem;
+}
+
+.div-1-2 h1{
+    color: #554D89;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 3.125rem;
+}
+
+#p-1{
+    font-size: 1.375rem;
+    line-height: 2.063rem;
+    color: #5B5766;
+}
+
+#div-1-2-1{
+    display: flex;
+}
+
+#div-1-2-1 p:last-child{
+    margin-left: 1.875rem;
+    position: relative;
+    top: 15px;
+}
+
+.div-1-2 a{
+    text-decoration: none;
+    color: #554D89;
+}
+
+.div-1-2 a :last-child{
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 1rem;
+}
+
+.gradient-1{
+    width: 12.938rem;
+    height: 3.125rem;
+    border: 1px solid linear-gradient(to right, #6852ED,#BA43FC);
+    border-radius: 3.125rem;
+    background-image: linear-gradient(to right, #6852ED,#BA43FC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.gradient-1 a{
+    color: white;
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.019rem;
+    padding: 1.25rem 2.438rem;
+}
