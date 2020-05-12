@@ -140,16 +140,38 @@ body{
     margin-top: 22.063rem;
 }
 
-#prices div {
+#prices .div-2-1 {
     width: 360px;
     height: 616px;
     box-shadow: -2px -4px 27px 0px rgba(0,0,0,0.08);
+    padding: 3.875rem 4.438rem 3.063rem 3.688rem;
 }
 
 #prices h2{
     font-family: 'Poppins-Bold', sans-serif;
     font-size: 1.25rem;
     color: #554D89;
+}
+
+#best-1{
+    width: 5.375rem;
+    height: 1.625rem;
+    font-family: 'Poppins-Bold', sans-serif ;
+    font-size: 0.625rem;
+    color: #EF7171;
+    text-transform: uppercase;
+    background-color: #E1E4ED;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0.5rem;
+}
+
+#div-2-2{
+    display: flex;
+    justify-content: space-between;
 }
 
 #prices ul{
