@@ -125,10 +125,35 @@ body{
     font-size: 1rem;
     letter-spacing: 0.019rem;
     padding: 1.25rem 2.438rem;
+    text-decoration: none
 }
 
 
 
 /* Section Prices -------------------------------------------------------------- */
 
+#prices{
+    width: 1140px;
+    height: 616px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22.063rem;
+}
 
+#prices div {
+    width: 360px;
+    height: 616px;
+    box-shadow: -2px -4px 27px 0px rgba(0,0,0,0.08);
+}
+
+#prices h2{
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 1.25rem;
+    color: #554D89;
+}
+
+#prices ul{
+    list-style: none;
+    color: #716C80;
+    line-height: 1.688rem;
+}
