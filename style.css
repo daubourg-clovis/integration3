@@ -289,9 +289,6 @@ p{
     display: flex;
 }
 
-#div-4-1{
-    order: 3;
-}
 
 .div-4-boxes{
     width: 22.5rem;
@@ -312,6 +309,7 @@ p{
 
 .div-4-boxes p{
     padding: 0 2.125rem;
+    line-height: 27px;
 }
 
 
@@ -331,20 +329,33 @@ p{
     text-decoration: none;
     color: white;
     font-family: 'Poppins-Regular', sans-serif;
+    padding: 3.125rem 3.125rem 3.125rem 0;
 }
 
 #div-4-3{
     margin-top: 1.875rem;
 }
 
+#div-4-1{
+    margin-left: 3.75rem;
+    margin-top: 7.25rem;
+    order: 3;
+    min-width: 330px;
+    min-height: 295px;
+}
 
+#div-4-1-1 h2{
+    font-size: 2.063rem;
+    font-family: 'Poppins-Bold', sans-serif;
+    color:#554D89;
+}
 
-
-
-
-
-
-
+#div-4-1-1 p{
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    margin-top: 1.75rem;
+    margin-bottom: 3rem;
+}
 
 
 
