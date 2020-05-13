@@ -35,7 +35,7 @@
 body{
     font-family: 'Nunito-Regular', sans-serif;
     margin: 0 auto;
-    width: 1132px;
+    width: 1140px;
 }
 
 p{
@@ -217,6 +217,7 @@ p{
 /* Section testimonial 3 -------------------------------------------------------- */
 
 #testimonial{
+    margin-top:7.438rem ;
     min-width: 100%;
     height: 535px;
     background-color: #E1E4ED;
@@ -281,5 +282,76 @@ p{
 }
 
 
-/* Section solutions ------------------------------------------------------------- */
+/* Section solutions 4 ----------------------------------------------------------- */
 
+#solutions{
+    margin-top: 1000px;
+    display: flex;
+}
+
+#div-4-1{
+    order: 3;
+}
+
+.div-4-boxes{
+    width: 22.5rem;
+    min-height: 14.313rem;
+    box-shadow: -2px -4px 27px 0px rgba(0,0,0,0.08);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.875rem 1.875rem 0;
+}
+
+.div-4-boxes h3{
+    color: #554D89;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 1.375rem;
+    padding: 0 2.125rem;
+}
+
+.div-4-boxes p{
+    padding: 0 2.125rem;
+}
+
+
+.div-4-boxes:hover{
+    background-image: linear-gradient(to right,#6852ED,#BA43FC) ;
+    box-shadow: 1px -2px 25px -3px rgba(104,82,237,1);
+}
+.div-4-boxes:hover h3{
+    color: white;
+}
+
+.div-4-boxes:hover p{
+    color: white;
+}
+
+.readmore{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+#div-4-3{
+    margin-top: 1.875rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section services 5 ------------------------------------------------------------ */
+
+#img-5-1{
+    width: 651px;
+    height: 474px;
+    border-radius: 50% 50% 50% 25%;
+}
