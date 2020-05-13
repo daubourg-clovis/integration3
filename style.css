@@ -468,6 +468,12 @@ p{
     font-size: 1.125rem;
 }
 
+#div-6-2 h3{
+    color: #554D89;
+    font-size: 1.25rem;
+    font-family: 'Poppins-Bold', sans-serif;
+}
+
 #div-6-2-3 nav > ul{
     display: flex;
     list-style: none;
