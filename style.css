@@ -395,3 +395,43 @@ p{
     color: #554D89;
     font-style: 'Poppins-Regular', sans-serif;
 }
+
+
+/* Footer 6 ------------------------------------------------------------------------------- */
+
+#endpage{
+    width: 1140px;
+    height: 466px;
+}
+
+#div-6-1{
+    width: 1140px;
+    height: 110px;
+    background-color: #6852ED;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 83px;
+}
+
+#form-1-1{
+    width: 280px;
+    height: 30px;
+}
+
+#form-1-1::placeholder{
+    background-color: #6852ED;
+    border: 1px solid #6852ED;
+    color: white;
+    font-size: 22px;
+}
+
+#send{
+    width: 103px;
+    height: 50px;
+    margin-left: 730px;
+    border: 2px solid #707070;
+    border-radius: 50px;
+    color: white;
+    background-color: #6852ED;
+}
