@@ -361,8 +361,36 @@ p{
 
 /* Section services 5 ------------------------------------------------------------ */
 
+
+#services{
+    display: flex;
+    margin-top: 7.375rem;
+}
+
 #img-5-1{
     width: 651px;
     height: 474px;
     border-radius: 50% 50% 50% 25%;
+}
+
+#div-5-2{
+    margin-left: 4.5rem;
+    margin-top: 5.875rem;
+}
+
+#div-5-2-1{
+    display: flex;
+}
+
+#div-5-2-1 p:last-child{
+    margin-left: 1.875rem;
+    position: relative;
+    top: 15px;
+}
+
+
+#div-5-2-1 p:last-child a{
+    text-decoration: none;
+    color: #554D89;
+    font-style: 'Poppins-Regular', sans-serif;
 }
