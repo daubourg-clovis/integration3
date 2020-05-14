@@ -536,37 +536,57 @@ input[ type=email]{
 
 
 
-@media only screen and (max-width: 1200px) 
+@media only screen and (min-width:992px) and (max-width: 1200px) 
 {
-
-    #container{
-        width: 100%;
-        max-width: 1200px;
-    }
 
     .div-1-1{
         width: 100%;
     }
 
     .div-1-1 ul{
-        font-size: 1.563rem;
+        font-size: 1.25rem;
     }
 
 
     #prices{
         margin-top: 100px;
+        max-width: 100%;
+        justify-content: start;
+    }
+
+    #prices .div-2-1{
+        padding: 1.5rem;
+        width: 15rem;
+        height: 150%;
+    }
+
+
+
+    #margindiv-2-1{
+        margin: 0 10px;
+    }
+
+
+
+
+    #prices p > strong{
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    
+    
+    #div-6-1{
         width: 50%;
+        margin-left: 25%;
+        padding: 0%;
     }
 
-    .div-2-1{
-        min-width: 40%;
-        min-height: 100%;
+    #form-1-1{
+        margin-left: 50px;
     }
 
-
-
-
-
-  
-
+    #send{
+        margin-left: 50%;
+    }
 }
