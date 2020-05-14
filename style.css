@@ -549,7 +549,7 @@ input[ type=email]{
 
 
     #prices{
-        margin-top: 100px;
+        margin-top: 6.25rem;
         max-width: 100%;
         justify-content: start;
     }
@@ -589,4 +589,6 @@ input[ type=email]{
     #send{
         margin-left: 50%;
     }
+
+
 }
