@@ -154,8 +154,8 @@ p{
 }
 
 #prices .div-2-1 {
-    width: 20rem;
-    height: 31.625rem;
+    max-width: 20rem;
+    max-height: 31.625rem;
     box-shadow: -2px -4px 27px 0px rgba(0,0,0,0.08);
     padding: 3.875rem 4.438rem 3.063rem 3.688rem;
 }
@@ -526,4 +526,47 @@ input[ type=email]{
     width: 5rem;
     border-bottom: 2px solid #D8D8D8;
     margin:  2.5rem 0;
+}
+
+
+
+
+
+/* Responsive ----------------------------------------------------------- */
+
+
+
+@media only screen and (max-width: 1200px) 
+{
+
+    #container{
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .div-1-1{
+        width: 100%;
+    }
+
+    .div-1-1 ul{
+        font-size: 1.563rem;
+    }
+
+
+    #prices{
+        margin-top: 100px;
+        width: 50%;
+    }
+
+    .div-2-1{
+        min-width: 40%;
+        min-height: 100%;
+    }
+
+
+
+
+
+  
+
 }
