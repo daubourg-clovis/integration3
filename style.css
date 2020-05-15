@@ -563,7 +563,7 @@ input[ type=email]{
     /* Testimonial  */
 
     .testimonial{
-        max-width:1200px
+        max-width:1200px;
     }
 
 
@@ -608,6 +608,7 @@ input[ type=email]{
     #div-6-2-3 nav > ul{
         flex-direction: column;
         line-height: 2rem;
+        font-size: 1.2rem;
     }
 
     #div-6-2-3-2{
@@ -615,4 +616,14 @@ input[ type=email]{
     }
 
 
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width: 991.98)
+{
+
+
+
+    
 }
