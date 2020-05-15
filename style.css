@@ -532,13 +532,12 @@ input[ type=email]{
     }
 
 
-    #prices{
-        margin-top: 6.25rem;
-        max-width: 100%;
+    .prices{
+        width: 100%;
         justify-content: start;
     }
 
-    #prices .div-2-1{
+    .prices .div-2-1{
         padding: 1.5rem;
         width: 15rem;
         height: 150%;
