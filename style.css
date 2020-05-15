@@ -49,7 +49,20 @@ p{
     box-sizing: border-box;
 }
 
+.gradient-1{
+    width: 12.938rem;
+    height: 3.125rem;
+    border: 1px solid linear-gradient(to right, #6852ED,#BA43FC);
+    border-radius: 3.125rem;
+    background-image: linear-gradient(to right, #6852ED,#BA43FC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Header  1 ----------------------------------------------------------------*/
+
+
 
 .div-1-1{
     display: flex;
@@ -119,16 +132,6 @@ p{
     font-size: 1rem;
 }
 
-.gradient-1{
-    width: 12.938rem;
-    height: 3.125rem;
-    border: 1px solid linear-gradient(to right, #6852ED,#BA43FC);
-    border-radius: 3.125rem;
-    background-image: linear-gradient(to right, #6852ED,#BA43FC);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
  
 .gradient-1 a{
     color: white;
@@ -138,14 +141,6 @@ p{
     padding: 1.25rem 2.438rem;
     text-decoration: none
 }
-
-/* #blueform{
-    float: right;
-    position: absolute;
-    top: -500px;
-    right: -500px;
-} */
-
 
 
 /* Section Prices 2 -------------------------------------------------------------- */
@@ -231,20 +226,11 @@ p{
     text-align: center;
     background-color: #E1E4ED;
     background-image: linear-gradient(to right, rgba(225, 228, 237, 0.705), rgba(225, 228, 237, 0.705)), url(medias/woman.png), url(medias/shape.png);
-    background-position: center, 2% 108%, 165% 100% ; 
+    background-position: center, 2% 108%, 105% 105% ; 
     background-repeat: no-repeat;
 }
 
 
-
-
-
-/* #img-3-3{
-    width: 360px;
-    height: 900px;
-    border-radius: 180px;
-    float: right;
-} */
 
 
 #div-3-1{
