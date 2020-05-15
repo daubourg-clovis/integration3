@@ -141,7 +141,7 @@ p{
 
 /* #blueform{
     float: right;
-    position: relative;
+    position: absolute;
     top: -500px;
     right: -500px;
 } */
@@ -228,10 +228,10 @@ p{
     margin-top:7.438rem ;
     min-width: 100%;
     height: 33.438rem;
-    background-color: #E1E4ED;
     text-align: center;
-    background-image: url(medias/circle.png);
-    background-position: auto, left bottom ;
+    background-color: #E1E4ED;
+    background-image: url(medias/woman.png);
+    background-position: auto, left bottom;
     background-repeat: no-repeat;
 }
 
@@ -285,7 +285,7 @@ p{
 /* Section solutions 4 ----------------------------------------------------------- */
 
 .solutions{
-    margin-top: 62.5rem;
+    margin-top: 6.875rem;
     display: flex;
 }
 
