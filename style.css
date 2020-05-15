@@ -230,15 +230,14 @@ p{
     height: 33.438rem;
     text-align: center;
     background-color: #E1E4ED;
-    background-image: url(medias/woman.png);
-    background-position: auto, left bottom;
+    background-image: linear-gradient(to right, rgba(225, 228, 237, 0.705), rgba(225, 228, 237, 0.705)), url(medias/woman.png), url(medias/shape.png);
+    background-position: center, 2% 108%, 165% 100% ; 
     background-repeat: no-repeat;
 }
 
 
 
 
-/* Y revenir pour la rogner en bas  */
 
 /* #img-3-3{
     width: 360px;
@@ -502,7 +501,6 @@ input[ type=email]{
 #div-6-2-3-2{
     margin-left: 4.188rem;
 }
-
 
 
 #div-6-3 p{
