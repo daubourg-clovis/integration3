@@ -221,7 +221,7 @@ p{
 
 .testimonial{
     margin-top:7.438rem ;
-    min-width: 100%;
+    max-width: 100%;
     height: 33.438rem;
     text-align: center;
     background-color: #E1E4ED;
@@ -522,6 +522,12 @@ input[ type=email]{
 
 @media only screen and (min-width:992px) and (max-width: 1200px) 
 {
+    .container{
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    /* Header  */
 
     .div-1-1{
         width: 100%;
@@ -531,6 +537,7 @@ input[ type=email]{
         font-size: 1.25rem;
     }
 
+    /* Prices  */
 
     .prices{
         width: 100%;
@@ -543,14 +550,9 @@ input[ type=email]{
         height: 150%;
     }
 
-
-
     #margindiv-2-1{
         margin: 0 10px;
     }
-
-
-
 
     #prices p > strong{
         font-size: 2rem;
@@ -558,23 +560,58 @@ input[ type=email]{
     }
 
     
+    /* Testimonial  */
+
+    .testimonial{
+        max-width:1200px
+    }
 
 
+    /* Solutions  */
+    .solutions{
+        flex-wrap: wrap-reverse;
+    }
+
+    #div-4-1{
+        max-width: 50%;
+    }
 
 
-    
+    /* Services  */
+
+    .services{
+        flex-wrap: wrap-reverse;
+    }
+
+    #div-5-2{
+        max-width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    /* Footer  */
+
     #div-6-1{
         width: 50%;
-        margin-left: 25%;
+        margin-left: 10%;
         padding: 0%;
     }
 
     #form-1-1{
         margin-left: 50px;
+        margin-bottom: 1rem;
     }
 
     #send{
         margin-left: 50%;
+    }
+
+    #div-6-2-3 nav > ul{
+        flex-direction: column;
+        line-height: 2rem;
+    }
+
+    #div-6-2-3-2{
+        margin-left: 0;
     }
 
 
