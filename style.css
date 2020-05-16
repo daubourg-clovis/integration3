@@ -902,3 +902,327 @@ input[ type=email]{
 
 
 }
+
+
+@media only screen and (min-width:480px) and (max-width:575.98px)
+{
+
+    .container{
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    /* Header  */
+
+    .div-1-1{
+        width: 100%;
+        flex-direction: row;
+        align-items:  center;
+    }
+
+    #navscript{
+        display: block;
+        margin-left: 65%;
+    }
+
+    #navscript svg {
+        fill: #554D89;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .div-1-2{
+        margin: 5rem auto;
+    }
+
+    .div-1-1 ul{
+        font-size: 1.25rem;
+        display: none;
+    }
+
+    /* Prices  */
+
+    .prices{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+
+    .prices .div-2-1{
+        padding: 1.5rem;
+        width: 15rem;
+        height: 150%;
+    }
+
+    .marginresponsive-2-1{
+        margin-bottom: 1rem;
+    }
+
+    #prices p > strong{
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    
+    /* Testimonial  */
+
+    .testimonial{
+        max-width:100%;
+        background-image: none;
+    }
+
+
+    /* Solutions  */
+    .solutions{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    #div-4-1{
+        max-width: 50%;
+    }
+
+
+    /* Services  */
+
+    .services{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .services img {
+        display: none;
+    }
+
+    #div-5-2{
+        max-width: 70%;
+        margin-bottom: 2rem;
+    }
+
+    /* Footer  */
+
+    #div-6-1{
+        width: 80%;
+        margin: auto;
+        padding: 0%;
+    }
+
+    #form-1-1{
+        margin-left: 50px;
+        margin-bottom: 1rem;
+    }
+
+    #send{
+        margin-left: 35%;
+    }
+
+
+
+    #div-6-2{
+        flex-flow: column;
+        
+    }
+
+    #div-6-2-1{
+        height: 100%;
+    }
+
+    #div-6-2-2{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    #div-6-2-2 address{
+        padding: 0;
+    }
+
+    #div-6-2-3 nav > ul li{
+        list-style: none;
+    }
+
+    #div-6-2-3 nav > ul{
+        flex-direction: row;
+        line-height: 2rem;
+        font-size: 1.2rem;
+
+    }
+
+    #div-6-2-3-2{
+        margin-left: 4.188rem;
+    }
+
+
+}
+
+
+@media only screen and (max-width:479.98px)
+{
+
+    .container{
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    /* Header  */
+
+    .div-1-1{
+        width: 100%;
+        flex-direction: row;
+        align-items:  center;
+    }
+
+    #navscript{
+        display: block;
+        margin-left: 50%;
+    }
+
+    #navscript svg {
+        fill: #554D89;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .div-1-2{
+        margin: 5rem auto;
+        width: 100%;
+    }
+
+    .div-1-1 ul{
+        font-size: 1.25rem;
+        display: none;
+    }
+
+    /* Prices  */
+
+    .prices{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .prices .div-2-1{
+        padding: 1.5rem;
+        width: 15rem;
+        height: 150%;
+    }
+
+    .marginresponsive-2-1{
+        margin-bottom: 1rem;
+    }
+
+    #prices p > strong{
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    
+    /* Testimonial  */
+
+    .testimonial{
+        max-width:100%;
+        min-height: 100%;
+        background-image: none;
+    }
+
+    #img-3-2{
+        display: none;
+    }
+
+    /* Solutions  */
+   
+    .solutions{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    #div-4-1{
+        max-width: 100%;
+        margin-left: auto;
+    }
+
+    .div-4-boxes{
+        margin: 0;
+    }
+
+
+    /* Services  */
+
+    .services{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .services img {
+        display: none;
+    }
+
+    #div-5-2{
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    /* Footer  */
+
+    #div-6-1{
+        width: 100%;
+        margin: auto;
+        padding: 0%;
+    }
+
+    #form-1-1{
+        margin-left: 50px;
+        margin-bottom: 1rem;
+    }
+
+    #send{
+        margin-left: 35%;
+    }
+
+
+
+    #div-6-2{
+        flex-flow: column;
+        
+    }
+
+    #div-6-2-1{
+        height: 100%;
+        width: 100%;
+    }
+
+    #div-6-2-2{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    #div-6-2-2 address{
+        padding: 0;
+    }
+
+    #div-6-2-3 nav > ul li{
+        list-style: none;
+    }
+
+    #div-6-2-3 nav > ul{
+        flex-direction: row;
+        line-height: 2rem;
+        font-size: 1.2rem;
+
+    }
+
+    #div-6-2-3-2{
+        margin-left: 4.188rem;
+    }
+
+
+
+}
